@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import M from "materialize-css"
 
 function Navbar() {
@@ -11,19 +12,19 @@ function Navbar() {
     return (
         <nav className="black" role="navigation">
             <div className="nav-wrapper container">
-            <a href="/" id="logo-container" className="brand-logo">ryan<strong>rotman</strong></a>
+            <Link to="/homework-20-react-portfolio" id="logo-container" className="brand-logo">ryan<strong>rotman</strong></Link>
             <ul className="right hide-on-med-and-down">
-                <li><a href="/">Home</a></li>
-                <li><a href="/portfolio">Portfolio</a></li>
-                <li><a href="/about">About Me</a></li>
-                <li><a href="/contact">Connect</a></li>
+                <li><Link to="/homework-20-react-portfolio">Home</Link></li>
+                <li><Link to="/homework-20-react-portfolio/portfolio">Portfolio</Link></li>
+                <li><Link to="/homework-20-react-portfolio/about">About Me</Link></li>
+                <li><Link to="/homework-20-react-portfolio/contact">Contact</Link></li>
             </ul>
 
             <ul id="nav-mobile" className="right sidenav">
-                <li className="white-text"><a href="/">Home</a></li>
-                <li className="white-text"><a href="/portfolio">Portfolio</a></li>
-                <li className="white-text"><a href="/about">About Me</a></li>
-                <li className="white-text"><a href="/contact">Connect</a></li>
+                <li className="white-text"><Link to="/homework-20-react-portfolio">Home</Link></li>
+                <li className="white-text"><Link to="/homework-20-react-portfolio/portfolio">Portfolio</Link></li>
+                <li className="white-text"><Link to="/homework-20-react-portfolio/about">About Me</Link></li>
+                <li className="white-text"><Link to="/homework-20-react-portfolio/contact">Contact</Link></li>
             </ul>
             {/* eslint-disable-next-line */}
             <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></a>

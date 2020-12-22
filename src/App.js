@@ -73,20 +73,20 @@ function App() {
       <main>
         <Navbar />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/homework-20-react-portfolio">
             <Home
               project={projects}
             />
           </Route>
-          <Route exact path="/portfolio">
+          <Route exact path="/homework-20-react-portfolio/portfolio">
             <Portfolio
               project={projects}
             />
           </Route>
-          <Route exact path="/about">
+          <Route exact path="/homework-20-react-portfolio/about">
             <About />
           </Route>
-          <Route exact path="/contact">
+          <Route exact path="/homework-20-react-portfolio/contact">
             <Contact />
           </Route>
         </Switch>

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import ParallaxTop from "../components/ParallaxTop";
 import ParallaxMiddle from "../components/ParallaxMiddle";
 import ParallaxBottom from "../components/ParallaxBottom";
@@ -9,6 +10,10 @@ import ContactMe from "../components/ContactMe";
 import Resume from "../components/Resume";
 
 function Home(props) {
+
+    useEffect(() => {
+        document.title = "Home | Ryan Rotman"
+    }, []);
 
     return (
         <div>
