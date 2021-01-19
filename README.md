@@ -1,10 +1,12 @@
 # React Portfolio Webpage
-Welcome to my portfolio webpage created with React. This page utilizes React components, the Materialize-CSS framework, and JavaScript.
+This repo holds the code for a prior version of my portfolio. Click [here](https://github.com/ryanrotman/ryanrotman.github.io) to see the up-to-date version.
+
+<!-- Welcome to my portfolio webpage created with React. This page utilizes React components, the Materialize-CSS framework, and JavaScript.
 
 I am a full-stack developer currently looking for work. Please take a look around my page, connect with me on <a href="https://www.linkedin.com/in/ryanrotman/" target="_blank">LinkedIn</a>, download my <a href="https://ryanrotman.github.io/Assets/RyanRotman_Resume.pdf" target="_blank">resume</a>, and contact me at [ryan.rotman@gmail.com](mailto:ryan.rotman@gmail.com). I look forward to connecting with you!
 
 ## GitHub Pages Link
-<a href="https://ryanrotman.github.io/homework-20-react-portfolio" target="_blank">ryanrotman.github.io/homework-20-react-portfolio</a>
+<a href="https://ryanrotman.github.io/react-portfolio/" target="_blank">ryanrotman.github.io/react-portfolio/</a> -->
 
 <!-- # Getting Started with Create React App
 
